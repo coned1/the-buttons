@@ -1,0 +1,94 @@
+body {
+    background-color: #696969;
+}
+h1 {
+    background-color: #898989;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+#amongus-button {
+    background-color: #f74040;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: #349eeb;
+    border-width: 3px;
+    cursor: pointer;
+}
+#mustache-button {
+    background-color: #613b26;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: #291a14;
+    border-width: 3px;
+    cursor: pointer;
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.floating-mustache {
+    animation: float 3s ease-in-out infinite;
+}
+#blueberry-button {
+    background-color: #5124e3;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: #2c47bf;
+    border-width: 3px;
+    cursor: pointer;
+}
+#rickroll-button {
+    background-image: linear-gradient(to right, white, rgb(194, 134, 255), rgb(136, 182, 255), white);
+    color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: rgb(254, 255, 166);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+#rickroll-button:hover {
+    box-shadow: 0 0 5px rgb(183, 0, 255), 
+                0 0 10px #0ff, 
+                0 0 20px #0ff, 
+                0 0 40px #0ff; 
+}
+#music-button {
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 3px;
+    cursor: pointer;
+}
+#jackpot-button {
+    background-color: #28c933;
+    font-weight: 700;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: #1b7022;
+    border-width: 3px;
+    cursor: pointer;
+}
+.bottom-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
